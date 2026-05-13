@@ -1,0 +1,124 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Interestelar",
+      "tipo": "Filme",
+      "genero": "Ficção Científica",
+      "ano": 2014,
+      "duracao": "2h 49min",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3a/Interstellar_Filme.png/250px-Interstellar_Filme.png",
+      "sinopse": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço em uma tentativa de garantir a sobrevivência da humanidade."
+    },
+    {
+      "id": 2,
+      "titulo": "Vingadores: Ultimato",
+      "tipo": "Filme",
+      "genero": "Ação",
+      "ano": 2019,
+      "duracao": "3h 1min",
+      "imagem": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SY679_.jpg",
+      "sinopse": "Após os eventos devastadores de Guerra Infinita, os heróis restantes se unem para restaurar a ordem do universo."
+    },
+    {
+      "id": 3,
+      "titulo": "Crepúsculo",
+      "tipo": "Filme",
+      "genero": "Romance",
+      "ano": 2008,
+      "duracao": "2h 2min",
+      "imagem": "https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg",
+      "sinopse": "Bella Swan se muda para uma nova cidade e se envolve com Edward Cullen, um misterioso vampiro."
+    },
+    {
+      "id": 4,
+      "titulo": "Jogos Vorazes",
+      "tipo": "Filme",
+      "genero": "Aventura",
+      "ano": 2012,
+      "duracao": "2h 22min",
+      "imagem": "https://m.media-amazon.com/images/M/MV5BY2QxODRlN2EtZjA5Zi00ODUxLTg4YTgtYWEyZTMyYWNlMzg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "sinopse": "Katniss Everdeen se voluntaria para participar de um jogo mortal televisionado em seu lugar."
+    },
+    {
+      "id": 5,
+      "titulo": "Velozes e Furiosos 7",
+      "tipo": "Filme",
+      "genero": "Ação",
+      "ano": 2015,
+      "duracao": "2h 17min",
+      "imagem": "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/14/spydMyyD81HjGJVwZvjajkrWW1h.jpg",
+      "sinopse": "Dominic Toretto e sua equipe enfrentam um novo inimigo em uma missão cheia de velocidade e adrenalina."
+    },
+    {
+      "id": 6,
+      "titulo": "Como Eu Era Antes de Você",
+      "tipo": "Filme",
+      "genero": "Drama",
+      "ano": 2016,
+      "duracao": "1h 50min",
+      "imagem": "https://m.media-amazon.com/images/I/915+JFp47-L._AC_UF894,1000_QL80_.jpg",
+      "sinopse": "Louisa Clark começa a trabalhar para cuidar de um homem tetraplégico e acaba transformando sua vida."
+    },
+    {
+      "id": 7,
+      "titulo": "Teen Wolf",
+      "tipo": "Série",
+      "genero": "Sobrenatural",
+      "ano": 2011,
+      "duracao": "6 temporadas",
+      "imagem": "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fposters%2F175001-20.jpg&w=640&q=75",
+      "sinopse": "Scott McCall tem a vida transformada após ser mordido por um lobisomem e passa a enfrentar criaturas sobrenaturais enquanto tenta viver sua adolescência."
+    },
+    {
+      "id": 8,
+      "titulo": "Gossip Girl",
+      "tipo": "Série",
+      "genero": "Drama",
+      "ano": 2007,
+      "duracao": "6 temporadas",
+      "imagem": "https://m.media-amazon.com/images/I/91I8ElmqRZL._AC_UF894,1000_QL80_.jpg",
+      "sinopse": "A elite de Manhattan tem sua rotina exposta por uma blogueira misteriosa que revela segredos e escândalos do grupo."
+    },
+    {
+      "id": 9,
+      "titulo": "The Vampire Diaries",
+      "tipo": "Série",
+      "genero": "Romance",
+      "ano": 2009,
+      "duracao": "8 temporadas",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b3/Sem_t%C3%ADtulo-1_c%C3%B3pia.jpg/250px-Sem_t%C3%ADtulo-1_c%C3%B3pia.jpg",
+      "sinopse": "Elena Gilbert se envolve com dois irmãos vampiros e passa a viver em meio a segredos, paixão e perigos sobrenaturais."
+    },
+    {
+      "id": 10,
+      "titulo": "Bridgerton",
+      "tipo": "Série",
+      "genero": "Romance",
+      "ano": 2020,
+      "duracao": "4 temporadas",
+      "imagem": "https://br.web.img2.acsta.net/img/a2/5b/a25b4f228bdbeb6c057792d1ef1a204b.jpg",
+      "sinopse": "Em uma Londres da alta sociedade, romances, escândalos e disputas marcam a vida da família Bridgerton."
+    },
+    {
+      "id": 11,
+      "titulo": "Grey’s Anatomy",
+      "tipo": "Série",
+      "genero": "Drama",
+      "ano": 2005,
+      "duracao": "21 temporadas",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/6/62/Grey%27s_Anatomy_temporada_12.jpg",
+      "sinopse": "Médicos residentes enfrentam desafios profissionais e pessoais dentro de um hospital onde emoções e decisões difíceis fazem parte do dia a dia."
+    },
+    {
+      "id": 12,
+      "titulo": "Suits",
+      "tipo": "Série",
+      "genero": "Drama",
+      "ano": 2011,
+      "duracao": "9 temporadas",
+      "imagem": "https://br.web.img3.acsta.net/c_310_420/pictures/14/03/28/10/18/433386.jpg",
+      "sinopse": "Um advogado brilhante contrata um jovem extremamente inteligente, mas sem diploma de direito, e juntos enfrentam casos e segredos no mundo jurídico."
+    }
+  ]
+}

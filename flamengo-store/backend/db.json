@@ -1,0 +1,124 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camisa Flamengo Masculina",
+      "categoria": "masculino",
+      "tipo": "camisa",
+      "preco": 249.99,
+      "parcelamento": "4x de R$ 62,49",
+      "imagem": "/src/assets/produtos/camisa-masculina.jpg",
+      "descricao": "Camisa oficial inspirada no manto rubro-negro, com tecido leve e confortável para o dia a dia."
+    },
+    {
+      "id": 2,
+      "nome": "Camisa Flamengo Feminina",
+      "categoria": "feminino",
+      "tipo": "camisa",
+      "preco": 239.99,
+      "parcelamento": "4x de R$ 59,99",
+      "imagem": "/src/assets/produtos/camisa-feminina.jpg",
+      "descricao": "Modelo feminino com caimento confortável e visual inspirado na loja oficial do Flamengo."
+    },
+    {
+      "id": 3,
+      "nome": "Camisa Flamengo Infantil",
+      "categoria": "infantil",
+      "tipo": "camisa",
+      "preco": 199.99,
+      "parcelamento": "4x de R$ 49,99",
+      "imagem": "/src/assets/produtos/camisa-infantil.jpg",
+      "descricao": "Versão infantil com tecido macio e ótimo acabamento para os pequenos torcedores."
+    },
+    {
+      "id": 4,
+      "nome": "Chuteira Rubro-Negra",
+      "categoria": "calcados",
+      "tipo": "chuteira",
+      "preco": 329.99,
+      "parcelamento": "5x de R$ 65,99",
+      "imagem": "/src/assets/produtos/chuteira.jpg",
+      "descricao": "Chuteira estilizada com cores rubro-negras, ideal para jogos e treinos."
+    },
+    {
+      "id": 5,
+      "nome": "Cropped Flamengo",
+      "categoria": "feminino",
+      "tipo": "cropped",
+      "preco": 119.99,
+      "parcelamento": "3x de R$ 39,99",
+      "imagem": "/src/assets/produtos/cropped.jpg",
+      "descricao": "Cropped moderno e confortável para quem quer um visual casual de torcida."
+    },
+    {
+      "id": 6,
+      "nome": "Calça Flamengo Masculina",
+      "categoria": "masculino",
+      "tipo": "calca",
+      "preco": 189.99,
+      "parcelamento": "4x de R$ 47,49",
+      "imagem": "/src/assets/produtos/calca-masculina.jpg",
+      "descricao": "Calça esportiva masculina com ótimo caimento e estilo inspirado no clube."
+    },
+    {
+      "id": 7,
+      "nome": "Calça Flamengo Feminina",
+      "categoria": "feminino",
+      "tipo": "calca",
+      "preco": 179.99,
+      "parcelamento": "4x de R$ 44,99",
+      "imagem": "/src/assets/produtos/calca-feminina.jpg",
+      "descricao": "Calça feminina confortável e versátil, ideal para treino ou dia a dia."
+    },
+    {
+      "id": 8,
+      "nome": "Conjunto Flamengo Infantil",
+      "categoria": "infantil",
+      "tipo": "calca",
+      "preco": 149.99,
+      "parcelamento": "3x de R$ 49,99",
+      "imagem": "/src/assets/produtos/conjunto-infantil.jpg",
+      "descricao": "Conjunto infantil pensada para conforto e liberdade de movimento."
+    },
+    {
+      "id": 9,
+      "nome": "Casaco Flamengo",
+      "categoria": "masculino",
+      "tipo": "casaco",
+      "preco": 399.99,
+      "parcelamento": "5x de R$ 79,99",
+      "imagem": "/src/assets/produtos/casaco.jpg",
+      "descricao": "Casaco estiloso e quente, ótimo para dias frios com identidade rubro-negra."
+    },
+    {
+      "id": 10,
+      "nome": "Casaco Flamengo",
+      "categoria": "feminino",
+      "tipo": "casaco",
+      "preco": 299.99,
+      "parcelamento": "5x de R$ 59,99",
+      "imagem": "/src/assets/produtos/casaco-feminino.jpg",
+      "descricao": "Casaco Feminino estiloso e quente, ótimo para dias frios com identidade rubro-negra."
+    },
+    {
+      "id": 11,
+      "nome": "Garrafinha Flamengo",
+      "categoria": "acessorios",
+      "tipo": "garrafinha",
+      "preco": 69.99,
+      "parcelamento": "2x de R$ 34,99",
+      "imagem": "/src/assets/produtos/garrafinha.jpg",
+      "descricao": "Garrafinha personalizada para acompanhar treinos, estudos e rotina."
+    },
+    {
+      "id": 12,
+      "nome": "Pulseira Flamengo",
+      "categoria": "acessorios",
+      "tipo": "pulseira",
+      "preco": 29.99,
+      "parcelamento": "1x de R$ 29,99",
+      "imagem": "/src/assets/produtos/pulseira.jpg",
+      "descricao": "Pulseira temática simples e estilosa para completar o visual do torcedor."
+    }
+  ]
+}
