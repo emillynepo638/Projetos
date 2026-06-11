@@ -1,0 +1,702 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.tela-presente {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1db95433, #050505 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card-presente {
+  width: 100%;
+  max-width: 420px;
+  background: #151515;
+  padding: 40px 24px;
+  border-radius: 28px;
+  text-align: center;
+  box-shadow: 0 0 50px #1db95425;
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.verde {
+  background: #1db954;
+}
+
+.card-presente h1 {
+  font-size: 38px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.card-presente h1 span {
+  color: #1db954;
+}
+
+.card-presente p {
+  color: #cfcfcf;
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.card-presente button {
+  background: #1db954;
+  color: #050505;
+  padding: 16px 34px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.app {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 18px;
+  background: #050505;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3b0208, #8b000d, #d71920, #ff4d5a);
+  background-size: 300% 300%;
+  animation: degradeRomantico 8s ease infinite;
+  border-radius: 0 0 32px 32px;
+  padding: 28px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.progress {
+  height: 5px;
+  background: linear-gradient(to right, white 45%, #555 45%);
+  border-radius: 999px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  color: #1db954;
+}
+
+.hero p {
+  color: #ddd;
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.spotify-card,
+.card,
+.mensagem-card,
+.constelacao {
+  background: #181818;
+  border-radius: 24px;
+  padding: 22px;
+  margin: 22px 0;
+  box-shadow: 0 0 30px #000;
+}
+
+.spotify-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.album {
+  width: 82px;
+  height: 82px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #1db954, #a5ffcb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart {
+  font-size: 34px;
+}
+
+.musica-info {
+  flex: 1;
+}
+
+.musica-info h2 {
+  font-size: 23px;
+}
+
+.musica-info p {
+  color: #bfbfbf;
+  margin-top: 6px;
+}
+
+.play-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: white;
+  color: #111;
+  font-size: 22px;
+}
+
+.card h2,
+.mensagem-card h2,
+.constelacao h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 30px;
+  margin-top: 14px;
+}
+
+.card p {
+  color: #cfcfcf;
+}
+
+.contador-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.contador-grid div {
+  background: #222;
+  border-radius: 18px;
+  padding: 18px 8px;
+  text-align: center;
+}
+
+.contador-grid strong {
+  display: block;
+  font-size: 32px;
+}
+
+.contador-grid span {
+  color: #cfcfcf;
+}
+
+.horas-juntos {
+  margin-top: 28px;
+  padding: 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f7c948, #111);
+  text-align: center;
+}
+
+.horas-juntos strong {
+  font-size: 54px;
+}
+
+.mensagem-card {
+  background: linear-gradient(135deg, #d71920, #801010);
+}
+
+.mensagem-card p {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-top: 18px;
+}
+
+.galeria {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  margin-top: 24px;
+  padding-bottom: 10px;
+}
+
+.foto-card {
+  min-width: 260px;
+  height: 350px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #333;
+}
+
+.foto-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.constelacao {
+  text-align: center;
+  background: radial-gradient(circle, #111 0%, #000 80%);
+}
+
+.ceu {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.ceu span {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: white;
+  border-radius: 50%;
+}
+
+.ceu span:nth-child(1) {
+  top: 70px;
+  left: 55px;
+}
+
+.ceu span:nth-child(2) {
+  top: 110px;
+  left: 120px;
+}
+
+.ceu span:nth-child(3) {
+  top: 150px;
+  left: 180px;
+}
+
+.ceu span:nth-child(4) {
+  top: 205px;
+  left: 225px;
+}
+
+.linha {
+  position: absolute;
+  height: 2px;
+  background: white;
+  transform-origin: left;
+}
+
+.linha1 {
+  width: 82px;
+  top: 76px;
+  left: 62px;
+  transform: rotate(28deg);
+}
+
+.linha2 {
+  width: 78px;
+  top: 117px;
+  left: 126px;
+  transform: rotate(31deg);
+}
+
+.linha3 {
+  width: 72px;
+  top: 157px;
+  left: 186px;
+  transform: rotate(45deg);
+}
+
+.frase {
+  font-size: 22px;
+  letter-spacing: 4px;
+  line-height: 1.6;
+}
+
+.cidade {
+  color: #aaa;
+  margin-top: 22px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+  .card-presente h1,
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .mensagem-card p {
+    font-size: 23px;
+  }
+
+  .contador-grid strong {
+    font-size: 27px;
+  }
+}
+
+.foto-capa {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 30px;
+  display: block;
+  border: 5px solid #ff4d5a;
+  box-shadow: 0 0 25px rgba(255, 77, 90, 0.6);
+}
+
+.carta-section {
+  margin: 22px 0;
+}
+
+.envelope-card {
+  background: linear-gradient(135deg, #fff7ef, #f3ded1);
+  color: #3b1f1f;
+  border-radius: 28px;
+  padding: 34px 24px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.08);
+
+  animation: pulsarEnvelope 2s infinite;
+}
+
+.envelope-card:hover {
+  transform: translateY(-5px);
+  transition: .3s;
+}
+
+.envelope {
+  width: 220px;
+  height: 140px;
+  background: #f8eadf;
+  margin: 0 auto 24px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.aba {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 49%, #e2c2b0 50%),
+              linear-gradient(225deg, transparent 49%, #e2c2b0 50%);
+}
+
+.lacinho {
+  position: absolute;
+  font-size: 42px;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  animation: baterCoracao 1.2s infinite;
+}
+
+.envelope-card h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.envelope-card p {
+  color: #6d4b4b;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.envelope-card button,
+.carta-aberta button {
+  background: #d71920;
+  color: white;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.carta-aberta {
+  background: #fff8ef;
+  color: #3a1d1d;
+  border-radius: 28px;
+  padding: 30px 24px;
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.08);
+  animation: abrirCarta 0.4s ease;
+}
+
+.carta-aberta h2 {
+  font-size: 30px;
+  margin-bottom: 18px;
+  color: #b30f18;
+}
+
+.carta-aberta p {
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.carta-aberta button {
+  margin-top: 24px;
+}
+
+@keyframes abrirCarta {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulsarEnvelope {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(215, 25, 32, 0.15);
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(215, 25, 32, 0.35);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(215, 25, 32, 0.15);
+  }
+}
+
+@keyframes baterCoracao {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  25% {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  75% {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.carrossel-fotos {
+  width: 100%;
+  height: 430px;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-top: 24px;
+  background: #222;
+}
+
+.carrossel-fotos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: trocarFoto 0.7s ease;
+}
+
+.bolinhas {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.bolinhas button {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #555;
+  border: none;
+}
+
+.bolinhas button.ativa {
+  width: 24px;
+  background: white;
+}
+
+@keyframes trocarFoto {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hero h1,
+.hero p {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.tag-romantica {
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  letter-spacing: 2px;
+}
+
+@keyframes degradeRomantico {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.chuva-coracoes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.chuva-coracoes span {
+  position: absolute;
+  top: -40px;
+  font-size: 24px;
+  opacity: 0.75;
+  animation: cairCoracao 7s linear infinite;
+}
+
+.chuva-coracoes span:nth-child(1) {
+  left: 12%;
+  animation-delay: 0s;
+}
+
+.chuva-coracoes span:nth-child(2) {
+  left: 30%;
+  animation-delay: 1.5s;
+  font-size: 20px;
+}
+
+.chuva-coracoes span:nth-child(3) {
+  left: 52%;
+  animation-delay: 3s;
+  font-size: 28px;
+}
+
+.chuva-coracoes span:nth-child(4) {
+  left: 72%;
+  animation-delay: 2s;
+  font-size: 22px;
+}
+
+.chuva-coracoes span:nth-child(5) {
+  left: 88%;
+  animation-delay: 4s;
+  font-size: 25px;
+}
+
+@keyframes cairCoracao {
+  0% {
+    transform: translateY(-40px) rotate(0deg);
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.constelacao {
+  background: #111;
+  border-radius: 24px;
+  padding: 30px 20px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.constelacao h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.constelacao-real {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto 24px;
+  display: block;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 0 20px rgba(255,255,255,0.15),
+    0 0 40px rgba(255,255,255,0.08);
+}
+
+.frase {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.cidade {
+  margin-top: 25px;
+  color: #ffb6c1;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.constelacao p:last-child {
+  color: #ddd;
+  margin-top: 8px;
+}
